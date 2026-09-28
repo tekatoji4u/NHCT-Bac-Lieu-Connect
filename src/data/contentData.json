@@ -1,0 +1,1760 @@
+{
+  "bankInfo": {
+    "name": "VietinBank Chi nhánh Bạc Liêu",
+    "advisor": {
+      "name": "Huỳnh Hải Đăng",
+      "phone": "0907.704.429",
+      "title": "Chuyên viên tư vấn"
+    },
+    "hotline": "1900 558 868",
+    "branchPhone": "(0291) 3999979",
+    "address": "Số 01, đường Hai Bà Trưng, khóm 4, phường Bạc Liêu, tỉnh Cà Mau",
+    "workingHours": {
+      "weekdays": "Sáng từ 07:30 - 11:30 | Chiều từ 13:00 - 16:30 (Thứ 2 - Thứ 6)",
+      "weekend": "Thứ 7 - Chủ nhật: Nghỉ giao dịch"
+    },
+    "logoUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Logo%20VietinBank.png"
+  },
+  "branches": [
+    {
+      "id": "cn-bac-lieu",
+      "name": "CN Bạc Liêu",
+      "address": "Số 01, đường Hai Bà Trưng, khóm 4, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "(0291) 3999979",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/TSC.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/9tTnDJtbRGV4fcFGA"
+    },
+    {
+      "id": "pgd-phuoc-long",
+      "name": "PGD Phước Long - CN Bạc Liêu",
+      "address": "Ấp Long Thành, xã Phước Long, tỉnh Cà Mau",
+      "phone": "(0291) 3581618",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Phuoc-Long.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/QBTY7GdNbghRRkkz7"
+    },
+    {
+      "id": "pgd-hai-ba-trung",
+      "name": "PGD Hai Bà Trưng - CN Bạc Liêu",
+      "address": "Số 29B, đường Hai Bà Trưng, khóm 4, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "(0291) 3822688",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Hai-ba-trung.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/37zCU1NKAct8aqws7"
+    },
+    {
+      "id": "pgd-hoa-binh",
+      "name": "PGD Hòa Bình - CN Bạc Liêu",
+      "address": "Quốc lộ 1A, ấp thị trấn A1, xã Hòa Bình, tỉnh Cà Mau",
+      "phone": "(0291) 3883119",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Hoa-binh.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/WtdDpFjrUWKsuQR5A"
+    },
+    {
+      "id": "pgd-gia-rai",
+      "name": "PGD Giá Rai - CN Bạc Liêu",
+      "address": "Số 203A Quốc lộ 1A, phường Giá Rai, tỉnh Cà Mau",
+      "phone": "(0291) 3849091",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Gia-rai.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/2sXUsvEAXK7GsADm7"
+    },
+    {
+      "id": "pgd-ganh-hao",
+      "name": "PGD Gành Hào - CN Bạc Liêu",
+      "address": "Ấp 2, xã Gành Hào, tỉnh Cà Mau",
+      "phone": "(0291) 3844441",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Ganh-hao.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/BLcPbbjwfRVSkAsK8"
+    }
+  ],
+  "atms": [
+    {
+      "id": "atm-1",
+      "name": "RATM_CN Bạc Liêu",
+      "address": "Số 01, đường Hai Bà Trưng, khóm 4, phường Bạc Liêu, tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/ATN_Hoiso.png",
+      "mapsUrl": "https://maps.app.goo.gl/9tTnDJtbRGV4fcFGA",
+      "type": "RATM (Nộp & Rút tiền tự động)"
+    },
+    {
+      "id": "atm-2",
+      "name": "ATM_CN Bạc Liêu",
+      "address": "Số 01, đường Hai Bà Trưng, khóm 4, phường Bạc Liêu, tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/ATN_Hoiso.png",
+      "mapsUrl": "https://maps.app.goo.gl/9tTnDJtbRGV4fcFGA",
+      "type": "ATM Chuẩn"
+    },
+    {
+      "id": "atm-3",
+      "name": "ATM-QR_PGD Phước Long_ATM-QR",
+      "address": "Ấp Long Thành, xã Phước Long, tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Phuoc-Long.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/hL3w6edDn1aPDYXbA",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-4",
+      "name": "ATM–QR_TT Y Tế Phước Long",
+      "address": "Xã Phước Long, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Phuoc-Long.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/hL3w6edDn1aPDYXbA",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-5",
+      "name": "ATM-QR_Công Ty Cổ Phần Tôm Miền Nam",
+      "address": "Ấp Khúc Tréo, Xã Phong Thạnh, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/ATM%20Tom%20MN.png",
+      "mapsUrl": "https://maps.app.goo.gl/YHu3FZ86J8bZikaE8",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-6",
+      "name": "ATM-QR_PGD Giá Rai",
+      "address": "Số 203A Đường quốc lộ 1A, Phường Giá Rai, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Gia-rai.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/2sXUsvEAXK7GsADm7",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-7",
+      "name": "ATM-QR_PGD Hòa Bình",
+      "address": "Đường quốc lộ 1A, ấp TTA1, Xã Hòa Bình, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Hoa-binh.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/WtdDpFjrUWKsuQR5A",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-8",
+      "name": "ATM-QR_PGD Gành Hào",
+      "address": "Ấp 3, Xã Gành Hào, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/Ganh-hao.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/kvbE5hfrNg95pwGH7",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-9",
+      "name": "ATM-QR_Công Ty Cổ Phần CBTS Ngọc Trí",
+      "address": "Khóm 3, Phường Láng Tròn, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/ATM%20NgocTri.png",
+      "mapsUrl": "https://maps.app.goo.gl/ryGzjpSyW1CQGo3p6",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-10",
+      "name": "ATM-QR_Công Ty TNHH MTV KD CBTS Bạch Linh",
+      "address": "Ấp Khúc Tréo, Xã Phong Thạnh, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/ATM%20BachLinh.png",
+      "mapsUrl": "https://maps.app.goo.gl/zz6bYdHAGhz7szEd8",
+      "type": "ATM-QR"
+    },
+    {
+      "id": "atm-11",
+      "name": "ATM-Công Ty TNHH TS NIGICO",
+      "address": "Đường quốc lộ 1A, Phường Giá Rai, Tỉnh Cà Mau",
+      "imageUrl": "https://pub-b9e8ccbe93f54aeabc3d7b6c09b15134.r2.dev/Anh-CN/ATM%20Nigico.png",
+      "mapsUrl": "https://maps.app.goo.gl/152ZvfoK11sMWi1o6",
+      "type": "ATM"
+    }
+  ],
+  "featuredProducts": {
+    "household": [
+      {
+        "id": "hkd-1",
+        "title": "Cho vay vốn lưu động",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4348.jpeg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "hkd-2",
+        "title": "Cho vay kinh doanh nhỏ lẻ",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4349.jpeg",
+        "youtubeUrl": ""
+      }
+    ],
+    "individual": [
+      {
+        "id": "cn-1",
+        "title": "VietinBank iPay",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Ipay.jpg",
+        "youtubeUrl": "https://youtube.com/playlist?list=PLRnY4e_qN4q7MALpObJtLHEUa2d4dmrMv&si=v8OonrjuwzzhUbrb"
+      },
+      {
+        "id": "cn-2",
+        "title": "Mở tài khoản cá nhân",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4334.jpeg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "cn-3",
+        "title": "Cho vay mua xe",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4347.jpeg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "cn-4",
+        "title": "Cho vay vốn lưu động",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4348.jpeg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "cn-5",
+        "title": "Cho vay kinh doanh nhỏ lẻ",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4349.jpeg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "cn-6",
+        "title": "Cho vay mua nhà",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4350.jpeg",
+        "youtubeUrl": ""
+      }
+    ],
+    "enterprise": [
+      {
+        "id": "dn-1",
+        "title": "Chiết khấu, thương lượng thanh toán BCT xuất khẩu",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/CK%20thuong%20luong%20TT.jpg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-2",
+        "title": "L/C nhập khẩu",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Lc%20nhap%20khau.jpg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-3",
+        "title": "L/C xuất khẩu",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Lc%20xuat%20khau.jpg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-4",
+        "title": "Bảo lãnh trong nước",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4341.jpeg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-5",
+        "title": "Hoán đổi lãi suất tiền tệ",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Hoan%20doi%20lai%20suat.jpg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-6",
+        "title": "Mua bán ngoại tệ",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/MBNT.jpg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-7",
+        "title": "Chuyển tiền ngoại tệ",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4352.jpeg",
+        "youtubeUrl": "https://youtu.be/xRYh1FXNlEU?si=qMMnNAqbLdhWAdST"
+      },
+      {
+        "id": "dn-8",
+        "title": "Quản lý dòng tiền tập trung",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Quan%20ly%20dong%20tien%20tap%20trung.png",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-9",
+        "title": "Thu hộ",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Thu%20ho%20quan%20ly%20dong%20tien.png",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-10",
+        "title": "Vay vốn lưu động",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Vay%20von%20luu%20dong.jpg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-11",
+        "title": "Vay đầu tư dự án",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Vay%20dau%20tu%20du%20an.jpg",
+        "youtubeUrl": ""
+      },
+      {
+        "id": "dn-12",
+        "title": "VietinBank POS",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Pos.jpg",
+        "youtubeUrl": "https://youtu.be/hMYSeYQgkls?si=HvEHQWXHK_6zg99m"
+      },
+      {
+        "id": "dn-13",
+        "title": "VietinBank eFast",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/Efast.jpg",
+        "youtubeUrl": "https://youtube.com/playlist?list=PLRnY4e_qN4q7TMmHWCbhFY-hzXhnY9lqF&si=-ns4EqPkWkYfii8j"
+      },
+      {
+        "id": "dn-14",
+        "title": "Mở tài khoản doanh nghiệp",
+        "imageUrl": "https://raw.githubusercontent.com/vuabanhmy55-droid/sondt1/main/IMG_4335.jpeg",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "ipayGuides": [
+    {
+      "id": "ipay-1",
+      "title": "Hướng dẫn cài đặt và đăng nhập ứng dụng VietinBank iPay Mobile",
+      "description": "Các bước tải app trên iOS / Android và thực hiện đăng nhập tài khoản lần đầu",
+      "youtubeUrl": "https://youtu.be/bzKxHlFYelE?si=aàkbCuUoJwYotWCq",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Truy cập kho ứng dụng",
+          "text": "Truy cập App Store (Hệ điều hành iOS) hoặc CH Play (Hệ điều hành Android)",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/cai%20dat%20va%20dang%20nhap%20ipay.jpg"
+        },
+        {
+          "step": 2,
+          "title": "Tìm kiếm & Tải ứng dụng",
+          "text": "Tìm kiếm từ khóa 'VietinBank iPay Mobile', chọn ứng dụng chính thức và bấm Cài đặt.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/cai%20dat%20va%20dang%20nhap%20ipay.jpg"
+        },
+        {
+          "step": 3,
+          "title": "Đăng nhập và đổi mật khẩu",
+          "text": "Mở ứng dụng, sử dụng tên đăng nhập và mật khẩu do VietinBank cung cấp. Nhập mã OTP SMS và đổi mật khẩu mới trong lần đăng nhập đầu tiên.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/cai%20dat%20va%20dang%20nhap%20ipay.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ipay-2",
+      "title": "Hướng dẫn mở tài khoản thanh toán và thẻ bằng CCCD gắn chip",
+      "description": "Đăng ký mở tài khoản 100% online bằng eKYC và căn cước công dân gắn chip",
+      "youtubeUrl": "https://youtu.be/GlDbmqzf9mQ?si=DkiXBSE5oCRbbnrg",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Khởi động đăng ký",
+          "text": "Mở iPay Mobile -> Chọn 'Tạo tài khoản ngay' -> 'Quý khách chưa có thông tin tại VietinBank' -> 'Tài khoản cá nhân'",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/mo%20tai%20khoan%20thanh%20toan%20va%20the%20bang%20CCCD%20gan%20Chip.jpg"
+        },
+        {
+          "step": 2,
+          "title": "Xác thực số điện thoại & OTP",
+          "text": "Nhập số điện thoại của Quý khách và điền mã xác thực OTP gửi về SMS.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/mo%20tai%20khoan%20thanh%20toan%20va%20the%20bang%20CCCD%20gan%20Chip.jpg"
+        },
+        {
+          "step": 3,
+          "title": "Quét CCCD & eKYC khuôn mặt",
+          "text": "Quét mã QR trên CCCD gắn chip, chụp ảnh khuôn mặt và quét chip NFC ở mặt lưng điện thoại.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/mo%20tai%20khoan%20thanh%20toan%20va%20the%20bang%20CCCD%20gan%20Chip.jpg"
+        },
+        {
+          "step": 4,
+          "title": "Xác nhận thông tin & Hoàn tất",
+          "text": "Kiểm tra thông tin cá nhân, chọn tài khoản số đẹp/chi nhánh quản lý, ký hợp đồng điện tử và nhận mật khẩu qua SMS.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/mo%20tai%20khoan%20thanh%20toan%20va%20the%20bang%20CCCD%20gan%20Chip.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ipay-3",
+      "title": "Hướng dẫn thay đổi cập nhật sinh trắc học trên VietinBank iPay Mobile",
+      "description": "Cập nhật dữ liệu khuôn mặt và chip CCCD theo Quyết định 2345/QĐ-NHNN",
+      "youtubeUrl": "https://youtu.be/9yYn3SbMT9A?si=wPn_PQTREJqLn3Re",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Đăng nhập và vào Cài đặt FacePay",
+          "text": "Đăng nhập app iPay -> Chọn Avatar / Profile cá nhân -> Chọn 'Cài đặt Facepay'",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Thay%20doi%20sinh%20trac%20hoc.jpg"
+        },
+        {
+          "step": 2,
+          "title": "Chụp ảnh CCCD & Khuôn mặt",
+          "text": "Chụp rõ nét mặt trước, mặt sau thẻ CCCD gắn chip và quay quét khuôn mặt theo chuyển động hướng dẫn.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Thay%20doi%20sinh%20trac%20hoc.jpg"
+        },
+        {
+          "step": 3,
+          "title": "Đọc chip NFC trên CCCD",
+          "text": "Áp sát thẻ CCCD vào lưng điện thoại (vùng ăng-ten NFC), giữ yên khi máy rung cho tới khi đọc đủ 100%.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Thay%20doi%20sinh%20trac%20hoc.jpg"
+        },
+        {
+          "step": 4,
+          "title": "Lưu thông tin thành công",
+          "text": "Bấm 'Đăng ký sinh trắc học & cập nhật hồ sơ' để hoàn tất quá trình xác thực.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Thay%20doi%20sinh%20trac%20hoc.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ipay-4",
+      "title": "Hướng dẫn cấp lại mật khẩu đăng nhập trên VietinBank iPay Mobile",
+      "description": "Chủ động lấy lại mật khẩu nhanh chóng qua nhận diện sinh trắc học hoặc thông tin thẻ",
+      "youtubeUrl": "https://youtu.be/86r0pxPOzbs?si=lsu9GwtZ2x8-cko2",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Yêu cầu quên mật khẩu",
+          "text": "Tại màn hình đăng nhập iPay, nhấn nút 'Quên mật khẩu'.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/cap%20lai%20mat%20khau%20dang%20nhap%20ipay.jpg"
+        },
+        {
+          "step": 2,
+          "title": "Nhập thông tin xác thực OTP",
+          "text": "Điền Tên đăng nhập, Số điện thoại đã đăng ký và nhập mã xác thực OTP gửi về điện thoại.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/cap%20lai%20mat%20khau%20dang%20nhap%20ipay.jpg"
+        },
+        {
+          "step": 3,
+          "title": "Xác thực danh tính",
+          "text": "Chọn xác thực bằng Facepay/Sinh trắc học hoặc thông tin 8 số cuối thẻ ngân hàng / chụp CCCD quét chip NFC.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/cap%20lai%20mat%20khau%20dang%20nhap%20ipay.jpg"
+        },
+        {
+          "step": 4,
+          "title": "Đăng nhập và thiết lập mật khẩu mới",
+          "text": "Nhận mật khẩu cấp tạm thời qua SMS, đăng nhập lại và thiết lập mật khẩu bảo mật mới.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/cap%20lai%20mat%20khau%20dang%20nhap%20ipay.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ipay-5",
+      "title": "Hướng dẫn sử dụng giải pháp quản lý bán hàng iShop Pro trên website",
+      "description": "Giải pháp quản lý cửa hàng, đơn hàng và xuất hóa đơn điện tử cho hộ kinh doanh",
+      "youtubeUrl": "https://youtu.be/5ysIB963vTU?si=Lf1lsfMt_OUcCpQa",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Tổng quan giải pháp iShop Pro",
+          "text": "Quản lý chuỗi cửa hàng, quản lý đơn hàng - kho hàng tập trung và kết nối thanh toán VietinBank thuận tiện.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/ishop%20pro.jpg"
+        },
+        {
+          "step": 2,
+          "title": "Tuân thủ hóa đơn điện tử",
+          "text": "Hỗ trợ xuất hóa đơn điện tử khởi tạo từ máy tính tiền đúng chuẩn quy định thuế cho hộ kinh doanh.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/ishop%20pro.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ipay-6",
+      "title": "Hướng dẫn sử dụng 2 gói tiện ích tài chính V-plus và V-Advance",
+      "description": "Hệ sinh thái đặc quyền tài chính, ưu đãi hoàn tiền, phòng chờ thương gia sân bay và quà tặng VIP",
+      "youtubeUrl": "https://youtu.be/S8UgqRucmBw?si=l00Ncb2u81bLK6eé",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Gói V-Plus (20.000 VND/tháng)",
+          "text": "Ưu đãi lãi suất tiết kiệm & đầu tư, hoàn tiền chi tiêu thẻ đến 600.000 VNĐ/tháng, miễn phí thường niên thẻ trọn đời, tặng tài khoản số đẹp 10 triệu đồng.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/2%20goi%20tai%20chinh.jpg"
+        },
+        {
+          "step": 2,
+          "title": "Gói V-Advance (1.000.000 VND/năm)",
+          "text": "Đặc quyền phòng chờ sân bay hạng thương gia, Hotline VIP và luồng phục vụ ưu tiên tại quầy, tặng tài khoản số đẹp 50 triệu đồng cùng hệ sinh thái Lifestyle đẳng cấp.",
+          "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/2%20goi%20tai%20chinh.jpg"
+        }
+      ]
+    }
+  ],
+  "efastGuides": [
+    {
+      "id": "efast-1",
+      "title": "Hướng dẫn Mở tài khoản thanh toán dành cho KHDN mới",
+      "description": "Quy trình 22 bước mở tài khoản thanh toán Doanh nghiệp Online trên eFAST One",
+      "youtubeUrl": "https://youtu.be/e3xdHy-8e8k",
+      "steps": [
+        {
+          "step": 0,
+          "text": "Bước 0: Hồ sơ cần chuẩn bị & Điều kiện mở Tài khoản thanh toán Doanh nghiệp",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.0.jpg"
+        },
+        {
+          "step": 1,
+          "text": "Bước 1: Tải ứng dụng VietinBank eFAST trên App Store/CH Play hoặc quét QR tại địa chỉ efast@vietinbank.vn để cài app.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.1.jpg"
+        },
+        {
+          "step": 2,
+          "text": "Bước 2: Tại màn hình nhập, chọn 'Mở TKTT Online', sau đó nhập mã số doanh nghiệp, số điện thoại và email của người khai báo.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.2.jpg"
+        },
+        {
+          "step": 3,
+          "text": "Bước 3: Xác thực ĐKKD - Chụp hoặc upload giấy ĐKKD bằng camera, file PDF, hoặc chọn ảnh sẵn có.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.3.jpg"
+        },
+        {
+          "step": 4,
+          "text": "Bước 4: Xác nhận thông tin OCR từ ĐKKD, kiểm tra và bổ sung doanh thu thuần, mã ngành, mã số thuế.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.4.jpg"
+        },
+        {
+          "step": 5,
+          "text": "Bước 5: Upload file điều lệ công ty định dạng PDF tối đa 5MB (DNTN không bắt buộc).",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.5.jpg"
+        },
+        {
+          "step": 6,
+          "text": "Bước 6: Khai báo thông tin KTT/người phụ trách kế toán (chọn có hoặc không có KTT).",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.6.jpg"
+        },
+        {
+          "step": 7,
+          "text": "Bước 7: Trường hợp có KTT, chọn chụp CCCD quét NFC hoặc nhập thông tin người dùng.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.7.jpg"
+        },
+        {
+          "step": 8,
+          "text": "Bước 8: Upload quyết định bổ nhiệm KTT và nhập đầy đủ thông tin trên màn hình.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.8.jpg"
+        },
+        {
+          "step": 9,
+          "text": "Bước 9: Chụp 2 mặt CCCD, xác nhận ảnh hợp lệ và thực hiện quét NFC.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.9.jpg"
+        },
+        {
+          "step": 10,
+          "text": "Bước 10: Xác thực thông tin KTT, upload giấy bổ nhiệm bản gốc và bổ sung số quyết định, ngày bổ nhiệm.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.10.jpg"
+        },
+        {
+          "step": 11,
+          "text": "Bước 11: Chọn tài khoản thường hoặc tài khoản số đẹp theo danh sách đề xuất.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.11.jpg"
+        },
+        {
+          "step": 12,
+          "text": "Bước 12: Khai báo thông tin tài khoản, mục đích mở TKTT, mã cán bộ và chi nhánh mở tài khoản.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.12.jpg"
+        },
+        {
+          "step": 13,
+          "text": "Bước 13: Lựa chọn hình thức nhận thông báo biến động số dư qua OTT hoặc SMS.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.13.jpg"
+        },
+        {
+          "step": 14,
+          "text": "Bước 14: Cài đặt số điện thoại nhận SMS biến động số dư.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.14.jpg"
+        },
+        {
+          "step": 15,
+          "text": "Bước 15: Chọn mô hình duyệt Internet Banking (1 tạo điện - 1 duyệt hoặc 1 tạo - 1 kiểm soát - 1 duyệt).",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.15.jpg"
+        },
+        {
+          "step": 16,
+          "text": "Bước 16: Rà soát hợp đồng điện tử và xác nhận thông tin chính xác.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.16.jpg"
+        },
+        {
+          "step": 17,
+          "text": "Bước 17: Chọn xác thực ngay hoặc xác thực sau đối với người đại diện theo pháp luật.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.17.jpg"
+        },
+        {
+          "step": 18,
+          "text": "Bước 18: Đại diện pháp luật chụp CCCD gắn chip, quét NFC và xác thực khuôn mặt sinh trắc học.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.18.jpg"
+        },
+        {
+          "step": 19,
+          "text": "Bước 19: Ký số hợp đồng mở tài khoản qua chứng thư số công cộng FPT-CA.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.19.jpg"
+        },
+        {
+          "step": 20,
+          "text": "Bước 20: Nhập OTP ký số và hoàn thành, tài khoản kích hoạt trong 2 ngày làm việc.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.20.jpg"
+        },
+        {
+          "step": 21,
+          "text": "Bước 21: Hướng dẫn quét QR xác thực bổ sung qua email đối với người đại diện pháp luật.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.21.jpg"
+        },
+        {
+          "step": 22,
+          "text": "Bước 22: Hướng dẫn xác thực bổ sung đối với Kế toán trưởng qua mã QR email.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/1.22.jpg"
+        }
+      ]
+    },
+    {
+      "id": "efast-2",
+      "title": "Đăng nhập ứng dụng eFAST One",
+      "description": "Các bước đăng nhập lần đầu, xác thực 2FA, chuyển đổi doanh nghiệp và FaceID",
+      "youtubeUrl": "https://youtu.be/3SvObqAz9pM",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Bước 1: Mở ứng dụng eFAST One trên thiết bị di động.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/2.1.jpg"
+        },
+        {
+          "step": 2,
+          "text": "Bước 2: Nhập Tên đăng nhập và mật khẩu được cấp.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/2.2.jpg"
+        },
+        {
+          "step": 3,
+          "text": "Bước 3: Đăng nhập lần đầu: Nhập mật khẩu tạm thời từ Email/SMS và đổi mật khẩu mới.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/2.3.jpg"
+        },
+        {
+          "step": 4,
+          "text": "Bước 4: Nếu quản lý nhiều công ty, chọn đúng doanh nghiệp cần giao dịch.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/2.4.jpg"
+        },
+        {
+          "step": 5,
+          "text": "Bước 5: Xác thực hai yếu tố 2FA qua mã bảo mật SMS hoặc Email.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/2.5.jpg"
+        },
+        {
+          "step": 6,
+          "text": "Bước 6: Thiết lập FaceID / Vân tay để đăng nhập nhanh chóng cho các lần sau.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/2.6.jpg"
+        },
+        {
+          "step": 7,
+          "text": "Bước 7: Thao tác chuyển đổi nhanh giữa các tài khoản doanh nghiệp trực thuộc.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/2.7.jpg"
+        }
+      ]
+    },
+    {
+      "id": "efast-3",
+      "title": "Cài đặt Thu thập sinh trắc học",
+      "description": "Đồng bộ hoặc thu thập mới CCCD gắn chip và dữ liệu sinh trắc học cho đại diện doanh nghiệp",
+      "youtubeUrl": "https://youtu.be/fXL2Vpkq6mY?si=sVKzcM7RnAB2L8YA",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Bước 1-5: Đồng bộ thông tin sinh trắc học đã có từ tài khoản cá nhân VietinBank sang eFAST.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.1.jpg"
+        },
+        {
+          "step": 2,
+          "text": "Xác thực OTP và kiểm tra dữ liệu giấy tờ tùy thân.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.2.jpg"
+        },
+        {
+          "step": 3,
+          "text": "Rà soát thông tin GTTT và sinh trắc học để liên kết hệ thống.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.3.jpg"
+        },
+        {
+          "step": 4,
+          "text": "Xác thực giao dịch đồng bộ trên ứng dụng.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.4.jpg"
+        },
+        {
+          "step": 5,
+          "text": "Thông báo cập nhật thành công.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.5.jpg"
+        },
+        {
+          "step": 6,
+          "text": "Bước 6-12: Trường hợp chưa có thông tin - Chụp CCCD 2 mặt và quét chip NFC trực tiếp.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.6.jpg"
+        },
+        {
+          "step": 7,
+          "text": "Chụp ảnh rõ nét CCCD gắn chip mặt trước và mặt sau.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.7.jpg"
+        },
+        {
+          "step": 8,
+          "text": "Quét chip NFC bằng mặt lưng điện thoại thông minh.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.8.jpg"
+        },
+        {
+          "step": 9,
+          "text": "Xác nhận quét NFC hoàn tất hợp lệ.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.9.jpg"
+        },
+        {
+          "step": 10,
+          "text": "Nhận diện khuôn mặt động và rà soát hồ sơ.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.10.jpg"
+        },
+        {
+          "step": 11,
+          "text": "Xác thực mã giao dịch bảo mật.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.11.jpg"
+        },
+        {
+          "step": 12,
+          "text": "Hoàn tất đăng ký sinh trắc học cho đại diện doanh nghiệp.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/3.12.jpg"
+        }
+      ]
+    },
+    {
+      "id": "efast-4",
+      "title": "Cấp lại mật khẩu & Mở khóa người dùng",
+      "description": "Thủ tục mở khóa tài khoản và khôi phục mật khẩu eFAST cho Admin và User",
+      "youtubeUrl": "https://www.youtube.com/watch?si=U3Kt0_qDjAlExeKz&v=ysg5AZBCkvA&feature=youtu.be",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Bước 1: Chọn 'Cấp lại mật khẩu / Mở khóa người dùng' tại màn hình đăng nhập.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/4.1.jpg"
+        },
+        {
+          "step": 2,
+          "text": "Bước 2: Nhập thông tin xác thực tài khoản và mã doanh nghiệp.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/4.2.jpg"
+        },
+        {
+          "step": 3,
+          "text": "Bước 3: Chọn phương thức cấp lại mật khẩu và gửi phê duyệt tới User Admin.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/4.3.jpg"
+        },
+        {
+          "step": 4,
+          "text": "Bước 4: Đối với User Admin đã đăng ký sinh trắc học, chọn mở khóa trực tiếp bằng khuôn mặt.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/4.4.jpg"
+        },
+        {
+          "step": 5,
+          "text": "Bước 5: Xác thực sinh trắc học nhận diện khuôn mặt tức thì.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/4.5.jpg"
+        },
+        {
+          "step": 6,
+          "text": "Bước 6: Nhận mật khẩu khôi phục gửi qua SMS/Email đã đăng ký an toàn.",
+          "imageUrl": "https://raw.githubusercontent.com/anphanguyen191-cell/AnhEfast/main/4.6.jpg"
+        }
+      ]
+    }
+  ],
+  "loanDocuments": [
+    {
+      "id": "loan-doc-1",
+      "group": "Dành cho khách hàng cá nhân, hộ kinh doanh",
+      "title": "VAY SẢN XUẤT KINH DOANH NGẮN HẠN",
+      "imageUrl": "https://raw.githubusercontent.com/sheratonbl6868/SXKD/main/danh%20muc%20vay%20sxkd.png"
+    },
+    {
+      "id": "loan-doc-2",
+      "group": "Dành cho khách hàng cá nhân",
+      "title": "VAY MUA Ô TÔ",
+      "imageUrl": "https://raw.githubusercontent.com/sheratonbl6868/SXKD/main/danh%20muc%20vay%20oto.png"
+    },
+    {
+      "id": "loan-doc-3",
+      "group": "Dành cho khách hàng cá nhân",
+      "title": "VAY BẤT ĐỘNG SẢN",
+      "imageUrl": "https://raw.githubusercontent.com/sheratonbl6868/SXKD/main/danh%20muc%20vay%20BDS.png"
+    },
+    {
+      "id": "loan-doc-4",
+      "group": "Dành cho khách hàng doanh nghiệp",
+      "title": "CẤP TÍN DỤNG CHO KHÁCH HÀNG DOANH NGHIỆP",
+      "imageUrl": "https://raw.githubusercontent.com/sheratonbl6868/SXKD/main/danh%20muc%20KHDN.png"
+    }
+  ],
+  "vietinTv": {
+    "products": [
+      {
+        "id": "tv-1",
+        "title": "Hướng dẫn mở tài khoản thanh toán và thẻ bằng CCCD gắn chip",
+        "youtubeUrl": "https://youtu.be/v77pPUGDx1E?si=Y-XW20RSlTZU9mR1",
+        "thumbnail": "https://raw.githubusercontent.com/thanhvo14021994-lab/Thanh-1/main/1.1.jpg",
+        "steps": [
+          "Bước 1: Tại trang chủ iPay, chọn Tạo tài khoản ngay → Chưa có thông tin → Tài khoản cá nhân",
+          "Bước 2: Nhập số điện thoại → Nhập mã OTP xác nhận",
+          "Bước 3: Chọn mã QR CCCD còn hiệu lực → Chụp ảnh khuôn mặt → Quét chip trên CCCD",
+          "Bước 4: Kiểm tra thông tin, bổ sung email/địa chỉ và chọn gói dịch vụ/chi nhánh",
+          "Bước 5: Xác nhận hợp đồng điện tử và nhận thông tin tài khoản đăng nhập"
+        ]
+      },
+      {
+        "id": "tv-2",
+        "title": "Hướng dẫn mở tài khoản VietinBank qua VNeID",
+        "youtubeUrl": "https://youtu.be/JbNd7NcEQig?si=dgE8YavyowkrKUYm",
+        "thumbnail": "https://raw.githubusercontent.com/thanhvo14021994-lab/Thanh-2/main/2.1.jpg",
+        "steps": [
+          "Bước 1: Đăng nhập app VNeID → Dịch vụ khác → Dịch vụ ngân hàng → Nhập Passcode",
+          "Bước 2: Chọn Tài khoản thanh toán ngân hàng → Đăng ký tài khoản → Chọn VietinBank",
+          "Bước 3: Xác nhận chia sẻ dữ liệu định danh điện tử",
+          "Bước 4: Chuyển tiếp tự động sang ứng dụng VietinBank iPay Mobile",
+          "Bước 5: Kích hoạt và nhận ngay số tài khoản thanh toán"
+        ]
+      },
+      {
+        "id": "tv-3",
+        "title": "Hướng dẫn đăng ký gói V-Plus và gói V-Advance trên VietinBank iPay Mobile",
+        "youtubeUrl": "https://youtu.be/ReZzNKvFr98?si=0eOX3fLtjp0AI5Ce",
+        "thumbnail": "https://raw.githubusercontent.com/thanhvo14021994-lab/Thanh-3/main/3.1.jpg",
+        "steps": [
+          "Bước 1: Đăng nhập iPay → Chọn biểu tượng Khách hàng thân thiết / Hệ sinh thái chủ động",
+          "Bước 2: Nhấn nút Đăng ký gói ưu đãi",
+          "Bước 3: Lựa chọn gói V-Plus hoặc V-Advance phù hợp nhu cầu",
+          "Bước 4: Xác nhận thanh toán phí dịch vụ",
+          "Bước 5: Kích hoạt đặc quyền phòng chờ sân bay, hoàn tiền và tài khoản VIP"
+        ]
+      },
+      {
+        "id": "tv-4",
+        "title": "Hướng dẫn ký số giấy nhận nợ trên VietinBank eFAST",
+        "youtubeUrl": "https://youtu.be/wayuJvpnebE?si=3KTP2x546VgOHc5V",
+        "thumbnail": "https://raw.githubusercontent.com/thanhvo14021994-lab/Thanh-4/main/4.1.jpg",
+        "steps": [
+          "Bước 1: User tạo điện kiểm tra thông tin trên giấy nhận nợ do VietinBank gửi",
+          "Bước 2: User phê duyệt đăng nhập eFAST, kiểm tra chứng thư số và thực hiện ký số",
+          "Bước 3: Phê duyệt điện tử bảo mật bằng Soft OTP"
+        ]
+      },
+      {
+        "id": "tv-5",
+        "title": "Hướng dẫn đăng ký sử dụng chữ ký số trên VietinBank eFAST",
+        "youtubeUrl": "https://youtu.be/dLcT_5QWYJM?si=SCEvYr5_cNIis8oZ",
+        "thumbnail": "https://raw.githubusercontent.com/thanhvo14021994-lab/Thanh-5/main/5.1.jpg",
+        "steps": [
+          "Bước 1: Quản trị viên đăng nhập eFAST",
+          "Bước 2: Cắm USB Token chữ ký số và cài đặt VNPT Plugin",
+          "Bước 3: Vào Quản trị viên → Đăng ký chữ ký số",
+          "Bước 4: Chọn chứng thư số và gửi chi nhánh xử lý phê duyệt"
+        ]
+      }
+    ],
+    "entertainment": [
+      {
+        "id": "ent-1",
+        "title": "HÃY YÊU VÀ TẬN HƯỞNG NHỮNG CHUYẾN ĐI VỚI VIETINBANK IPAY MOBILE",
+        "youtubeUrl": "https://youtu.be/-AImWhH46XQ"
+      },
+      {
+        "id": "ent-2",
+        "title": "VIETINBANK IPAY MOBILE 6.0 - TẬN HƯỞNG NHỊP SỐNG SỐ",
+        "youtubeUrl": "https://youtu.be/TvcRHJpgSDM"
+      },
+      {
+        "id": "ent-3",
+        "title": "VIETINBANK PREMIUM - SỐNG TRỌN TINH HOA",
+        "youtubeUrl": "https://youtu.be/MgInI47h1d8"
+      },
+      {
+        "id": "ent-4",
+        "title": "VUI ĐÓN TRUNG THU - ÂN TÌNH GẮN KẾT CÙNG VIETINBANK",
+        "youtubeUrl": "https://youtu.be/3P0XJr0EWt8"
+      }
+    ]
+  },
+  "lookups": {
+    "address2026": {
+      "title": "Hướng dẫn truy vấn tên khóm/ấp mới từ tháng 7/2026 trên địa bàn Bạc Liêu (cũ)",
+      "description": "Công cụ số tra cứu tên khóm, ấp, phường xã sau sắp xếp đơn vị hành chính tỉnh Bạc Liêu",
+      "url": "https://tekatoji4u.github.io/2026-Hamlet-Neighborhood-Lookup-Tool/?zarsrc=30&utm_source=zalo&utm_medium=zalo&utm_campaign=zalo"
+    },
+    "national2025": {
+      "title": "Hướng dẫn truy vấn địa danh toàn quốc sau sáp nhập từ tháng 07/2025",
+      "description": "Tra cứu danh mục các đơn vị hành chính 63 tỉnh/thành phố trên cả nước sau sáp nhập",
+      "url": "https://tra-dia-chi-moi-toan-quoc-10.vercel.app",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/1K39V7FNK_31QMG3.jpeg"
+    }
+  },
+  "provinces": [
+    "An Giang (An Giang)",
+    "Bà Rịa - Vũng Tàu (TP. Hồ Chí Minh)",
+    "Bắc Giang (Bắc Ninh)",
+    "Bắc Kạn (Thái Nguyên)",
+    "Bạc Liêu (Cà Mau)",
+    "Bắc Ninh (Bắc Giang)",
+    "Bến Tre (Vĩnh Long)",
+    "Bình Định (Gia Lai)",
+    "Bình Dương (TP. Hồ Chí Minh)",
+    "Bình Phước (Đồng Nai)",
+    "Bình Thuận (Lâm Đồng)",
+    "Cà Mau (Cà Mau)",
+    "Cao Bằng (Cao Bằng)",
+    "Cần Thơ (TP. Cần Thơ)",
+    "Đà Nẵng (TP. Đà Nẵng)",
+    "Đắk Lắk (Đắk Lắk)",
+    "Đắk Nông (Lâm Đồng)",
+    "Điện Biên (Điện Biên)",
+    "Đồng Nai (Đồng Nai)",
+    "Đồng Tháp (Đồng Tháp)",
+    "Gia Lai (Gia Lai)",
+    "Hà Giang (Tuyên Quang)",
+    "Hà Nam (Ninh Bình)",
+    "Hà Nội (TP. Hà Nội)",
+    "Hà Tĩnh (Hà Tĩnh)",
+    "Hải Dương (TP. Hải Phòng)",
+    "Hải Phòng (TP. Hải Phòng)",
+    "Hậu Giang (TP. Cần Thơ)",
+    "Hòa Bình (Phú Thọ)",
+    "Hưng Yên (Hưng Yên)",
+    "Khánh Hòa (Khánh Hòa)",
+    "Kiên Giang (An Giang)",
+    "Kon Tum (Quảng Ngãi)",
+    "Lai Châu (Lai Châu)",
+    "Lâm Đồng (Lâm Đồng)",
+    "Lạng Sơn (Lạng Sơn)",
+    "Lào Cai (Lào Cai)",
+    "Long An (Tây Ninh)",
+    "Nam Định (Ninh Bình)",
+    "Nghệ An (Nghệ An)",
+    "Ninh Bình (Ninh Bình)",
+    "Ninh Thuận (Khánh Hòa)",
+    "Phú Thọ (Phú Thọ)",
+    "Phú Yên (Đắk Lắk)",
+    "Quảng Bình (Quảng Trị)",
+    "Quảng Nam (TP. Đà Nẵng)",
+    "Quảng Ngãi (Quảng Ngãi)",
+    "Quảng Ninh (Quảng Ninh)",
+    "Quảng Trị (Quảng Trị)",
+    "Sóc Trăng (TP. Cần Thơ)",
+    "Sơn La (Sơn La)",
+    "Tây Ninh (Tây Ninh)",
+    "Thái Bình (Hưng Yên)",
+    "Thái Nguyên (Thái Nguyên)",
+    "Thanh Hóa (Thanh Hóa)",
+    "TP. Hồ Chí Minh (TP. Hồ Chí Minh)",
+    "TP. Huế (TP. Huế)",
+    "Tiền Giang (Đồng Tháp)",
+    "Trà Vinh (Vĩnh Long)",
+    "Tuyên Quang (Tuyên Quang)",
+    "Vĩnh Long (Vĩnh Long)",
+    "Vĩnh Phúc (Phú Thọ)",
+    "Yên Bái (Lào Cai)"
+  ],
+  "industries": [
+    "Ăn uống",
+    "Bán lẻ - Thương mại",
+    "Điện tử - Điện máy - Viễn thông",
+    "Dược phẩm, Mỹ phẩm, Dụng cụ y tế",
+    "Nhà hàng - Khách sạn",
+    "Nhà thuốc",
+    "Nội thất - Vật liệu xây dựng",
+    "Nông – Lâm – Thủy sản",
+    "Ô tô - Xe máy",
+    "Tạp hóa",
+    "Thiết bị thể thao",
+    "Thời trang",
+    "Xăng dầu"
+  ],
+  "merchants": [
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ô tô - Xe máy",
+      "name": "CỬA HÀNG XE GẮN MÁY TƯƠI",
+      "address": "368 Võ Thị Sáu, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "02913821070",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Xe%20gan%20may_Tuoi.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/XpAzqXHGPozabdE89"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Điện tử - Điện máy - Viễn thông",
+      "name": "HỘ KINH DOANH TÍN NGHĨA STORE",
+      "address": "Số 211 - đường Trần Phú - Phường 7 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "0886204060",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Mobile_Tin%20nghia%20Store.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/4BJrE8pxHPwU1yTH8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ô tô - Xe máy",
+      "name": "CÔNG TY TNHH TM DV ĐẠT NGỌC",
+      "address": "2221 - Hai Bà Trưng - P.3 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "02913969988",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Datngoc.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/oMMZnnkzpsis4MZP8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Điện tử - Điện máy - Viễn thông",
+      "name": "ĐIỆN THOẠI DI ĐỘNG HỒ PHÁT",
+      "address": "131 Võ Thị Sáu, Khóm 2, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "0777795268",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Dien%20thoai_Ho%20phat.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/7HY95w4kCsVNSJFW9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Thiết bị thể thao",
+      "name": "CỬA HÀNG KING SPORT BẠC LIÊU",
+      "address": "Số 266 - 268 - Trần Phú - Phường 7 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "02916555755",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/kingsport.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/8PALCiejT2Jc32ou7"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "CHI NHÁNH CÔNG TY CỔ PHẦN VUA NỆM-TẠI BẠC LIÊU",
+      "address": "69 - Đường Trần Huỳnh - Khóm 2 - Phường 7 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "0394422366",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/vua%20nem.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/TmLgzNSCQfph7vfA7"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "HỘ KINH DOANH NỘI THẤT THUẬN PHÁT",
+      "address": "Số 16 B/8 - Trần Phú - Khóm 1, Phường 7 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "0947247996",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/noi%20that_ThuanPhat.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/qQ45kQx3Y6SPBKrSA"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ô tô - Xe máy",
+      "name": "CÔNG TY TNHH VĂN TƯƠI BẠC LIÊU",
+      "address": "Số 103-105 - Võ Thị Sáu, Khóm 2 - Phường 8 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "02913888882",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/vantuoi_baclieu.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/ktKVWmmyBa9AZ2C9A"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Điện tử - Điện máy - Viễn thông",
+      "name": "SANG TRANG",
+      "address": "35 Trần Huỳnh, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "0939195500",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/sangtrang.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/yu3GP9BNMv6Pcrp78"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "TRANG TRÍ NỘI THẤT VIỆT DŨNG 2",
+      "address": "9A-10A-11A - Trần Phú - Phường 7 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "0918627824",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Noi%20that_VietDung.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/bMVbKzssXPpF5se48"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Điện tử - Điện máy - Viễn thông",
+      "name": "KEN TÁO",
+      "address": "Số 393 - Đ. Trần Phú - Khóm 2 - P. 7 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "0886204060",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Kentao.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/FHsHToznrYVhTobK6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "CÔNG TY TNHH TM - DV VIỆT DŨNG",
+      "address": "297 - 297A - Đường Trần Phú - Phường 7 - TP. Bạc Liêu - Bạc Liêu",
+      "phone": "02913821444",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Cty%20TNHH%20VietDung.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/o3LVkArDynC7qqzLA"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "CÔNG TY TNHH MTV CAO HOÀNG DŨNG",
+      "address": "130B - ẤP LONG THÀNH, TT PHƯỚC LONG - H. Phước Long - Bạc Liêu",
+      "phone": "0909580430",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/cao%20hoang%20dung.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/MVuteFdkBuqhJ7uD7"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "CTY TNHH MTV Minh Tiến Bạc Liêu",
+      "address": "QL1A, Hòa Bình, Cà Mau, Việt Nam",
+      "phone": "02913666663",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/HB_MinhTien.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/yid9gETg2Cbt5S1Y6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Khách sạn Sài Gòn Bạc Liêu",
+      "address": "2-4-6, Hoàng Văn Thụ, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "02913959697",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS%20Baclieu.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/1msJLwo2E2EDbgvN6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Khách sạn Trần Vinh",
+      "address": "85 - 87 Hai Bà Trưng, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "02913777444",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_TranVinh1.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/8K4qdBGcr9wTXNYD6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Khách sạn Trần Vinh 2",
+      "address": "05-07 đường 30/4, Bạc Liêu, Cà Mau 97106, Việt Nam",
+      "phone": "0848733831",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_TranVinh2.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/LxkgrYCWfNb532h18"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Sunrise Hotel Bạc Liêu",
+      "address": "Khu Villa Vincom, Căn HG, 37 - 39 Trần Huỳnh, Bạc Liêu, Cà Mau",
+      "phone": "0828 777 272",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_SunPrice.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/KdXXrzUCz8MK7pf66"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Khách sạn Anh Tuấn",
+      "address": "48 Ninh Bình, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "0977503503",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_AnhTuan.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/p4U3ePh3FZW7eA6a6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Khách sạn New Palace",
+      "address": "36 Trần Quang Diệu, Khu Địa ốc Bạc Liêu, Bạc Liêu, Cà Mau",
+      "phone": "02913949888",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_NewPalace.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/6qj4P5YRV45W37ge9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "THIÊN ÂN BOUTIQUE HOTEL",
+      "address": "Khu Villa Vincom Trần Huỳnh, HG01, Trần Huỳnh, Bạc Liêu, Cà Mau",
+      "phone": "0868303968",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_BOUTIQUE%20HOTEL.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/dtTzGuS5cWYH5iRj6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Cosmo Stars Hotel Bac Lieu",
+      "address": "31A Trần Phú, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "02913777999",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_Cosmo%20Stars.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/Ky1ARAPFg16Eecn67"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Khách sạn Công tử Bạc Liêu",
+      "address": "139A Hai Bà Trưng, Bạc Liêu, Cà Mau",
+      "phone": "02917300094",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/KS_CongtuBacLieu.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/YErzXCaowg5F8vo77"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ăn uống",
+      "name": "Sino Coffee",
+      "address": "Khóm 7, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "0918667272",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Sino%20coffee.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/9HK5oTB4X6FgsksaA"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "Trang trí nội thất Chánh Đạt Bạc Liêu",
+      "address": "155 23 Tháng 8, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "0943705599",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/cua-hang-trang-tri-noi-that-chanh-dat-986671.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/fHvXUcrQHMQ5A1dT8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ăn uống",
+      "name": "Cà phê Gocgo Bạc Liêu",
+      "address": "220 Nguyễn Thị Minh Khai, Khóm 2, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "0918868299",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Gocgo2.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/n9K4ScvCm4BNVVKbA?g_st=ic"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Thời trang",
+      "name": "Kính mắt Quang Minh",
+      "address": "251 Trần Phú, Khóm 9, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "0945363070",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Mat%20kinh%20Quang%20Minh.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/gKDzMrYqWxkB57FD9?g_st=ic"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ăn uống",
+      "name": "Ốc 35",
+      "address": "5/142e kênh, Hồ Minh Luông, khóm 4, Bạc Liêu, Cà Mau 84291, Vietnam",
+      "phone": "0919352535",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/%E1%BB%90c%2035.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/6HZerZGZtTjU3HRS7?g_st=ic"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "Cửa hàng Văn Phước",
+      "address": "42 Võ Thị Sáu, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "0989008194",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Nhom%20Van%20Phuoc.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/XmwSjjPrCMCEDPaf8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Cửa hàng VTNN Chinh Nga",
+      "address": "CHQ3+PXW, Vĩnh Thanh, Cà Mau, Vietnam",
+      "phone": "0916909181",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/VTNN%20ChinhNga.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/izjVW66Z7pR6YXQVA?g_st=ic"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ăn uống",
+      "name": "Bánh bao Xương Thạnh",
+      "address": "274 Hoàng Diệu, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "0944399494",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/XuongThanh.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/jPpRCHpocKGSXbL86"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Thuyền Trăng",
+      "address": "128 Võ Thị Sáu, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "2913822888",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/ThuyenTrang.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/YDxDDsyq2pwYfNLR6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà thuốc",
+      "name": "Nhà thuốc Thuận An",
+      "address": "400 Võ Thị Sáu, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "2913952952",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Nhathuoc_ThuanAn.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/edJUD9sswewL7VZc8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "Shop Giày dép Thúc Trinh",
+      "address": "65-67 Bà Triệu, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "0949114444",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Giaydep_ThucTrinh.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/VwAqYX18vVxGE34j9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Cửa hàng thức ăn tôm Trung Vinh 2",
+      "address": "37 Trần Phú, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "02913829735",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/TrungVinh2.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/ivmRL65LGtR7qYRDA"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Đại lý thức ăn thủy sản Phương Hiền",
+      "address": "01 Ninh Bình, Khóm 3, Bạc Liêu, Cà Mau, Vietnam",
+      "phone": "0919494550",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/TS_PhuongHien.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/dDJjJQ7wNTyFX3LD7"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà hàng - Khách sạn",
+      "name": "Khu du lịch điện gió Hòa Bình 1 - Resort",
+      "address": "Ấp 12, Vĩnh Hậu A, Vĩnh Hậu, Bạc Liêu, Vietnam",
+      "phone": "02916555552",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Diengio_HB1.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/Xph57V6pKx331FiW8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Dược phẩm, Mỹ phẩm, Dụng cụ y tế",
+      "name": "Titishop Gành Hào",
+      "address": "Ấp 2, xã Gành Hào, tỉnh Cà Mau",
+      "phone": "0939024202",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/IMG_3006.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/DtKmD6s8B1fMVSTs9?g_st=ic"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Ngọc Út – hải sản Gành Hào",
+      "address": "Ấp 2, xã Gành Hào, tỉnh Cà Mau",
+      "phone": "0939024202",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/IMG_3007.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/DtKmD6s8B1fMVSTs9?g_st=ic"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Công ty TNHH MTV tôm giống Hùng Hên Phương Bình",
+      "address": "Đường số 1, Ấp 4, Gành Hào, Cà Mau",
+      "phone": "0919070859",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/CTy%20Hung%20Hen%20Phuong%20Binh.PNG",
+      "mapsUrl": "https://maps.app.goo.gl/vpHYZUTJLzsKUedq6?g_st=ig"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Cửa hàng Giang Diễm",
+      "address": "A08-09 kdc đường Phan Ngọc Hiển, ấp 3, Gành Hào, Cà Mau",
+      "phone": "0919000729",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Cua%20hang%20Giang%20Diem.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/r2xNj3jutP9uqAG59?g_st=ig"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Vựa Tư Hùng (Công ty TNHH MTV thủy sản Thế Vinh)",
+      "address": "Phan Ngọc Hiển, Gành Hào, Cà Mau, Vietnam",
+      "phone": "0913193454",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Vua%20Tu%20Hung.PNG",
+      "mapsUrl": "https://maps.app.goo.gl/GNY31xchVJrGbwoE7?g_st=ig"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Vựa Hoa Tuấn",
+      "address": "Ấp 4, Ganh Hao, Ca Mau, Vietnam",
+      "phone": "0918245094",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Hoa%20Tuan.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/Z1CYU5bmVhtfyCME8?g_st=ig"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "Cửa hàng TTNT Quốc Linh",
+      "address": "2CMH+XC2, Đê, Gành Hào, Cà Mau, Vietnam",
+      "phone": "0947999911",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/CH%20QUoc%20Linh.JPG",
+      "mapsUrl": "https://maps.app.goo.gl/797riJ2zNLQrNcLU8?g_st=ig"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Vựa Hoàng Vinh - Công Ty TNHH MTV Thủy Sản Hoàng Vinh",
+      "address": "Ấp Ngọc Điền, xã Gành Hào, tỉnh Cà Mau",
+      "phone": "0913333975",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Cty%20Hoang%20Vinh.PNG",
+      "mapsUrl": "https://maps.app.goo.gl/mzUpZRvXY9MccLQv5?g_st=ig"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "Yến Sào Đất Mũi",
+      "address": "Ấp Ngọc Điền, xã Gành Hào, tỉnh Cà Mau",
+      "phone": "0913631669",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Cay%20xang%20Kim%20Tien.PNG",
+      "mapsUrl": "https://maps.app.goo.gl/nTNwq444dDTLm4y69?g_st=ig"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Xăng dầu",
+      "name": "Cây xăng Kim Tiến",
+      "address": "326 Phan Ngọc Hiển, Gành Hào, Cà Mau, Vietnam",
+      "phone": "0918124040",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/1K3BUUURD_4KMA0J.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/8khPZyoZar3TzjNR6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Công ty TNHH MTV giống thủy sản Hoàng Lộc",
+      "address": "Ấp Ngọc Điền, xã Gành Hào, tỉnh Cà Mau",
+      "phone": "0918232181",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/1K3BUUURD_4KMA0J.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/crjwHmJYGHsiTuqx6"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "CÔNG TY TNHH MTV VLXD HỮU LỘC",
+      "address": "Giá Rai - Gành Hào, Long Điền, Cà Mau, Vietnam",
+      "phone": "0913083083",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/Cua%20hang%20Huu%20Loc.PNG",
+      "mapsUrl": "https://maps.app.goo.gl/xuTfKz2aGY9H59VY8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "CÔNG TY TNHH MTV LIÊN VẠN PHÁT",
+      "address": "Ấp 4, Ganh Hao, Ca Mau, Vietnam",
+      "phone": "0918327711",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/1K3BT3P63_4KMA0J.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/Ths563TUrv6Jw16S9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nông – Lâm – Thủy sản",
+      "name": "Cửa hàng Thuận Lợi",
+      "address": "Ganh Hao, Bac Lieu, Vietnam",
+      "phone": "0907965060",
+      "imageUrl": "https://raw.githubusercontent.com/tekatoji4u/Anh-BacLieu/refs/heads/main/IMG_3004.jpeg",
+      "mapsUrl": "https://maps.app.goo.gl/YEJkHnTXh9AFNwwR9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "Cửa hàng Huỳnh Hoa",
+      "address": "Số 024B, đường Võ Thị Sáu, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0909812517",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/HuynhHoa.png",
+      "mapsUrl": "https://maps.app.goo.gl/kxPhLBLbBwmW13Jr7"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "Cửa hàng Lủ Xê",
+      "address": "Số 53, đường Lê Văn Duyệt, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0815275777",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/LuXe.png",
+      "mapsUrl": "https://maps.app.goo.gl/qRaj1kuof3GJsqe26"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "Cửa hàng Vĩnh Phát",
+      "address": "Số 44 đường Lê Văn Duyệt, khóm 10, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "02913822188",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/VinhPhat.png",
+      "mapsUrl": "https://maps.app.goo.gl/ghtheptH1PPvCrng8"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "Thắng Quang",
+      "address": "TTTM Phường Bạc Liêu, Cà Mau",
+      "phone": "0828411028",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/TTNT%20Ut.png",
+      "mapsUrl": "https://maps.app.goo.gl/zE86YtoieP9ygKGB9?g_st=work.vn.gapo.app.GapoShareExtension"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Bán lẻ - Thương mại",
+      "name": "TTNT Út",
+      "address": "Số 137, đường Hoàng Văn Thụ, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0918887694",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/TTNT%20Ut.png",
+      "mapsUrl": "https://maps.app.goo.gl/Da75avfjki2R2yDE7"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ăn uống",
+      "name": "Cà Phê Thanh Thư",
+      "address": "Số 05, hương lộ 6, ấp Sóc Đồn, xã Hưng Hội, tỉnh Cà Mau.",
+      "phone": "0944334755",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/ThanhThu_Cafe.png",
+      "mapsUrl": "https://maps.app.goo.gl/sQpE39tDrtFGh478A"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ăn uống",
+      "name": "Rose Coffee & Billiards Club",
+      "address": "26 Lê Duẩn, Bạc Liêu, Cà Mau, Việt Nam",
+      "phone": "0983162041",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/ThanhThu_Cafe.png",
+      "mapsUrl": "https://maps.app.goo.gl/ae3fHhUjpVVeXNqz9?g_st=work.vn.gapo.app.GapoShareExtension"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Dược phẩm, Mỹ phẩm, Dụng cụ y tế",
+      "name": "Nhà thuốc Thanh Vũ",
+      "address": "Số 183, đường Bà Triệu, phường Bạc Liêu, Cà Mau",
+      "phone": "0944633118",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Nha%20Thuoc_Thanh%20Vu.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/d7U6BwvzViTLxNvVA"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Dược phẩm, Mỹ phẩm, Dụng cụ y tế",
+      "name": "Quầy thuốc Thanh Sơn",
+      "address": "Ấp Năm Căn, Xã Hưng Hội, Tỉnh Cà Mau",
+      "phone": "0918176060",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Nha%20Thuoc_Thanh%20Vu.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/XXcJWhAaGmxyoBFs5?g_st=work.vn.gapo.app.GapoShareExtension"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Ô tô - Xe máy",
+      "name": "MOTO Kiên",
+      "address": "Số 326, khóm 17, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0902525464",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Moto_Kien.png",
+      "mapsUrl": "https://maps.app.goo.gl/sy9rV3y6xhNNSD2NA"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Điện tử - Điện máy - Viễn thông",
+      "name": "Điện lạnh Hoàng Thám",
+      "address": "Số 19, đường Ngô Quang Nhã, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0988633045",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Dienlanh_HoangTham.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/qXDsL5mUSyF4SJSN7"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Tạp hóa",
+      "name": "Hữu Liêm",
+      "address": "Khu hành chính, Đường Lương Đình Của, Phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0918232171",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/HuuLiem.png",
+      "mapsUrl": "https://maps.app.goo.gl/HX5xn3DVhaH5ifAB9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nhà thuốc",
+      "name": "Cửa Hàng Thuốc Thú Y Minh Kiều",
+      "address": "Số 38, đường Cách Mạng, khóm 01, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0919204936",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/Cuahang_Thu%20y_MinhKieu.jpg",
+      "mapsUrl": "https://maps.app.goo.gl/Uh2hxkmfNdifQD4L7?g_st=work.vn.gapo.app.GapoShareExtension"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "TTNT Tú Quyên",
+      "address": "Ấp Tam Hưng, Vĩnh Lợi, tỉnh Cà Mau",
+      "phone": "0945490581",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/TuQuyen.png",
+      "mapsUrl": "https://maps.app.goo.gl/n6PxKr2BEWTeNkin9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Nội thất - Vật liệu xây dựng",
+      "name": "Cửa hàng Tú Quyên",
+      "address": "Ấp Tam Hưng, Vĩnh Lợi, tỉnh Cà Mau",
+      "phone": "0947986350",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/TuQuyen.png",
+      "mapsUrl": "https://maps.app.goo.gl/n6PxKr2BEWTeNkin9"
+    },
+    {
+      "province": "Bạc Liêu (Cà Mau)",
+      "industry": "Dược phẩm, Mỹ phẩm, Dụng cụ y tế",
+      "name": "Hiền Hậu Bạc Liêu",
+      "address": "44-46 Trần Phú, phường Bạc Liêu, tỉnh Cà Mau",
+      "phone": "0389424262",
+      "imageUrl": "https://pub-d824ab443c0c4386a4239422684760bb.r2.dev/HieuHau.png",
+      "mapsUrl": "https://maps.app.goo.gl/DFaDDmAkRpiaYWMb8"
+    }
+  ],
+  "localTourism": {
+    "defaultProvince": "Bạc Liêu (Cà Mau)",
+    "places": {
+      "Bạc Liêu (Cà Mau)": {
+        "dining": [
+          {
+            "name": "Bánh xèo A Mật",
+            "address": "182/2 Đường số 31, Ấp Giồng Nhãn, Phường Hiệp Thành, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/An/Banh-xeo-a-mat.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/bkyfzmG21VHfpQ7s6"
+          },
+          {
+            "name": "Bún nước lèo Năm Hớn",
+            "address": "Số 649, Đường Trần Phú, Phường Bạc Liêu, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/An/Bun-nuoc-leo-Nam-Hon.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/MJHRpsLtDJAeJDxf7"
+          },
+          {
+            "name": "Bún bò cay Ánh Nguyệt",
+            "address": "119 Cao Văn Lầu, Phường Vĩnh Trạch, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/An/Bun-bo-cay.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/B3vUx5WRzHatY43p8"
+          },
+          {
+            "name": "Lẩu mắm Hồng Gấm",
+            "address": "3/225B Đường Tỉnh lộ 38, Phường Vĩnh Trạch, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/An/Lau-mam-Hong-gam.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/YJtLaXQGMHxtU9NP8"
+          },
+          {
+            "name": "Bún xào nem nướng Băng Tâm",
+            "address": "516 Võ Thị Sáu, Phường Bạc Liêu, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/An/Bun-xao.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/SisS1r6QV94zfNdM8"
+          },
+          {
+            "name": "Vựa khô Nguyên Thủy",
+            "address": "Ấp 2, Xã Phong Thạnh, Tỉnh Cà Mau",
+            "imageUrl": "https://raw.githubusercontent.com/maduylinh6683-netizen/anh-baclieu/main/1.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/27wQFbwDodWATfjq7?g_st=ic"
+          },
+          {
+            "name": "Quán cơm Mỹ Ngân",
+            "address": "164 Quốc Lộ 1A, Phường Giá Rai, Tỉnh Cà Mau",
+            "imageUrl": "https://raw.githubusercontent.com/maduylinh6683-netizen/anh-baclieu/main/2.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/27wQFbwDodWATfjq7?g_st=ic"
+          },
+          {
+            "name": "Thái Bình 3",
+            "address": "49 Quốc Lộ 1A, Xã Phong Thạnh, Tỉnh Cà Mau",
+            "imageUrl": "https://raw.githubusercontent.com/maduylinh6683-netizen/anh-baclieu/main/3.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/vRr14WBzQUS8wGbJ7?g_st=ic"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "Khách sạn Sài Gòn Bạc Liêu",
+            "address": "2-4-6, Hoàng Văn Thụ, Bạc Liêu, Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Nghi/sai-gon-bac-lieu-hotel.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/ZimD5E8iVLYDmGz17"
+          },
+          {
+            "name": "Khách sạn Công tử Bạc Liêu",
+            "address": "139A Hai Bà Trưng, Bạc Liêu, Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Nghi/KS-Congtubaclieu.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/V4uG3stUiKFPFeRE9"
+          },
+          {
+            "name": "Khách sạn Trần Vinh",
+            "address": "85-87 Hai Bà Trưng, Phường Bạc Liêu, Tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Nghi/KS-TranVinh.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/BVCsMDcyFHGc3NKF6"
+          },
+          {
+            "name": "Khách sạn Sơn Lâm",
+            "address": "69FX+3WR Quốc Lộ 1A, Xã Phong Thạnh, Tỉnh Cà Mau",
+            "imageUrl": "https://raw.githubusercontent.com/maduylinh6683-netizen/anh-baclieu/main/4.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/8wFbVHuzwyR4aewN6?g_st=ic"
+          },
+          {
+            "name": "Khách sạn Đức Vương",
+            "address": "Ấp 2, Xã Phong Thạnh, Tỉnh Cà Mau",
+            "imageUrl": "https://raw.githubusercontent.com/maduylinh6683-netizen/anh-baclieu/main/7.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/dWxgHeGjXJ7syNrC9?g_st=ic"
+          }
+        ],
+        "attractions": [
+          {
+            "name": "Dinh thự Công tử Bạc Liêu",
+            "address": "13 Điện Biên Phủ, phường Bạc Liêu, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Choi/Cong-tu-Bac-Lieu.jfif",
+            "mapsUrl": "https://maps.app.goo.gl/tSes8wWTrLsJxv7n7"
+          },
+          {
+            "name": "Cánh đồng điện gió Bạc Liêu",
+            "address": "Khóm Biển Đông A, phường Hiệp Thành, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Choi/CanhdonggioBaclieu.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/F1fhFJjudgbQEMNj9"
+          },
+          {
+            "name": "Chùa Xiêm Cán",
+            "address": "Khóm Biển Đông B, phường Hiệp Thành, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Choi/chua-xiem-can.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/kZEvK5JvjZwXWkN7A"
+          },
+          {
+            "name": "Quan âm Phật Đài (Mẹ Nam Hải)",
+            "address": "Đường Trường Sa, khu vực khóm Nhà Mát, phường Hiệp Thành, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Choi/phat-ba-nam-hai.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/iWWb7yM7ajC4nZEc7"
+          },
+          {
+            "name": "Khu lưu niệm Nhạc sĩ Cao Văn Lầu",
+            "address": "Đường Ninh Bình, phường Bạc Liêu, tỉnh Cà Mau",
+            "imageUrl": "https://pub-8db548912e6649bbabeb3b571024571e.r2.dev/Du-lich-Bac-Lieu/Choi/Cao-Van-Lau-Tuong.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/pAAy6dtmdWKRMkkEA"
+          },
+          {
+            "name": "Nhà thờ Tắc Sậy",
+            "address": "Ấp 2A, Xã Phong Thạnh, Tỉnh Cà Mau",
+            "imageUrl": "https://raw.githubusercontent.com/maduylinh6683-netizen/anh-baclieu/main/5.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/Rstd9BQNkRZ6NtmC7?g_st=ic"
+          },
+          {
+            "name": "Chùa Thiên Trúc",
+            "address": "6967+464 Ấp Khúc Tréo B, Xã Phong Thạnh, Tỉnh Cà Mau",
+            "imageUrl": "https://raw.githubusercontent.com/maduylinh6683-netizen/anh-baclieu/main/6.jpg",
+            "mapsUrl": "https://maps.app.goo.gl/BZPQvjup7fyDEnEx8?g_st=ic"
+          }
+        ]
+      }
+    }
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "Tài khoản & iPay",
+      "question": "Làm sao để đăng ký hoặc kích hoạt lại FacePay / Sinh trắc học?",
+      "answer": "Quý khách mở ứng dụng VietinBank iPay Mobile -> Chọn Avatar (Profile) góc trên trái -> Chọn 'Cài đặt Facepay' -> Quét mặt trước, mặt sau CCCD gắn chip -> Áp CCCD vào mặt lưng điện thoại để quét NFC -> Chụp khuôn mặt để hoàn tất. Nếu điện thoại không hỗ trợ NFC, Quý khách hãy liên hệ nhân viên tại quầy VietinBank để được quét hỗ trợ nhanh nhất."
+    },
+    {
+      "id": "faq-2",
+      "category": "Tiền gửi tiết kiệm",
+      "question": "Gửi tiết kiệm tại quầy có những kỳ hạn nào và có thể rút trước hạn không?",
+      "answer": "VietinBank Bạc Liêu cung cấp các kỳ hạn linh hoạt từ 1, 2, 3, 6, 9, 12, 18, 24 đến 36 tháng. Quý khách có thể rút trước hạn toàn bộ hoặc một phần theo quy định của NHNN (hưởng lãi suất không kỳ hạn tại thời điểm rút)."
+    },
+    {
+      "id": "faq-3",
+      "category": "Vay vốn",
+      "question": "Điều kiện và thủ tục vay mua nhà hoặc sản xuất kinh doanh tại Bạc Liêu?",
+      "answer": "Quý khách là công dân Việt Nam từ 18 tuổi trở lên, có thu nhập ổn định và phương án sử dụng vốn khả thi, có tài sản bảo đảm hợp pháp (bất động sản, phương tiện vận tải, sổ tiết kiệm...). Chi tiết danh mục hồ sơ xem tại mục 'Danh mục hồ sơ vay'."
+    },
+    {
+      "id": "faq-4",
+      "category": "Thẻ ngân hàng",
+      "question": "Bị nuốt thẻ tại cây ATM hoặc quên mã PIN thì làm như thế nào?",
+      "answer": "Quý khách có thể khóa thẻ tạm thời ngay trên ứng dụng iPay Mobile để đảm bảo an toàn, sau đó yêu cầu cấp lại mã PIN trực tiếp trên app mà không cần ra quầy. Nếu thẻ bị nuốt tại ATM VietinBank Bạc Liêu, vui lòng thông báo cho nhân viên quầy giao dịch hoặc gọi Hotline 1900 558 868."
+    },
+    {
+      "id": "faq-5",
+      "category": "Dành cho Doanh nghiệp",
+      "question": "Doanh nghiệp mở tài khoản eFAST cần giấy tờ gì?",
+      "answer": "Doanh nghiệp cần chuẩn bị: Giấy chứng nhận ĐKKD, Quyết định bổ nhiệm/CCCD người đại diện pháp luật, Quyết định bổ nhiệm Kế toán trưởng và điều lệ công ty (nếu có). Quý khách có thể mở online 100% qua app eFAST One với 22 bước cực kỳ tiện lợi."
+    }
+  ],
+  "depositRates": [
+    {
+      "term": "Không kỳ hạn",
+      "rate": 0.1,
+      "months": 0
+    },
+    {
+      "term": "1 tháng",
+      "rate": 2,
+      "months": 1
+    },
+    {
+      "term": "3 tháng",
+      "rate": 2.3,
+      "months": 3
+    },
+    {
+      "term": "6 tháng",
+      "rate": 3.3,
+      "months": 6
+    },
+    {
+      "term": "9 tháng",
+      "rate": 3.3,
+      "months": 9
+    },
+    {
+      "term": "12 tháng",
+      "rate": 4.7,
+      "months": 12
+    },
+    {
+      "term": "18 tháng",
+      "rate": 4.7,
+      "months": 18
+    },
+    {
+      "term": "24 tháng",
+      "rate": 5,
+      "months": 24
+    },
+    {
+      "term": "36 tháng",
+      "rate": 5,
+      "months": 36
+    }
+  ]
+}
