@@ -1,19 +1,21 @@
 import React from 'react';
 import { useApp } from '../../context/AppContext';
-import { FEATURES_LIST } from '../SidebarTaskbar';
 import {
   MapPin,
   Phone,
   Clock,
-  ChevronRight,
   ShieldCheck,
-  Building,
+  Menu,
+  ChevronRight,
   Sparkles,
-  ArrowRight
+  Smartphone,
+  TrendingUp,
+  Map,
+  HelpCircle
 } from 'lucide-react';
 
 export const FeatureOverview: React.FC = () => {
-  const { data, setActiveFeature } = useApp();
+  const { data, setIsSidebarOpen } = useApp();
 
   return (
     <div className="space-y-6 sm:space-y-8 animate-in fade-in duration-300">
@@ -34,11 +36,11 @@ export const FeatureOverview: React.FC = () => {
           </h1>
 
           <p className="text-sm sm:text-base text-sky-100/90 leading-relaxed mb-6 font-normal">
-            Hệ thống quầy giao dịch tích hợp 16 chức năng trực quan: tra cứu thông tin nhanh, hướng dẫn mở tài khoản cá nhân & doanh nghiệp, tính lãi suất tiền gửi, du lịch và giao thương địa phương.
+            Hệ thống quầy giao dịch tích hợp các dịch vụ trực quan: tra cứu thông tin nhanh, hướng dẫn mở tài khoản cá nhân & doanh nghiệp, tính lãi suất tiền gửi, du lịch và giao thương địa phương.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3 border border-white/10">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs mb-6">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3.5 border border-white/10">
               <div className="flex items-center gap-2 font-semibold text-white mb-1">
                 <MapPin className="w-4 h-4 text-sky-300 shrink-0" />
                 <span className="truncate">Trụ sở Chi nhánh</span>
@@ -48,7 +50,7 @@ export const FeatureOverview: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3.5 border border-white/10">
               <div className="flex items-center gap-2 font-semibold text-white mb-1">
                 <Clock className="w-4 h-4 text-amber-300 shrink-0" />
                 <span>Giờ làm việc</span>
@@ -58,7 +60,7 @@ export const FeatureOverview: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3 border border-white/10">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3.5 border border-white/10">
               <div className="flex items-center gap-2 font-semibold text-white mb-1">
                 <Phone className="w-4 h-4 text-emerald-300 shrink-0" />
                 <span>Hotline Quầy</span>
@@ -68,67 +70,69 @@ export const FeatureOverview: React.FC = () => {
               </p>
             </div>
           </div>
+
+          {/* Button to Open Sidebar Menu */}
+          <div className="pt-2">
+            <button
+              type="button"
+              onClick={() => setIsSidebarOpen(true)}
+              className="inline-flex items-center gap-2.5 px-5 py-3 rounded-2xl bg-white text-[#004b87] font-semibold text-sm shadow-md hover:bg-sky-50 active:scale-98 transition-all"
+            >
+              <Menu className="w-4 h-4 text-[#004b87]" />
+              <span>Mở Danh Mục 16 Tính Năng</span>
+              <ChevronRight className="w-4 h-4 text-slate-400" />
+            </button>
+          </div>
         </div>
       </div>
 
-      {/* 16 Features Grid */}
-      <div>
-        <div className="flex items-center justify-between mb-4">
-          <div>
-            <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
-              Danh Mục 16 Tính Năng Quầy Giao Dịch
-            </h2>
-            <p className="text-xs text-slate-500 dark:text-slate-400">
-              Chạm hoặc bấm vào từng tính năng để xem chi tiết hướng dẫn và công cụ tra cứu
-            </p>
+      {/* Guide & Highlight Cards for Counter Customers */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-2xs">
+          <div className="w-10 h-10 rounded-xl bg-sky-50 dark:bg-sky-950/60 text-[#004b87] dark:text-sky-400 flex items-center justify-center mb-3">
+            <Smartphone className="w-5 h-5" />
           </div>
-          <span className="text-xs font-semibold text-[#004b87] dark:text-sky-300 bg-sky-50 dark:bg-sky-950/60 px-3 py-1 rounded-full border border-sky-100 dark:border-sky-800">
-            16 / 16 Chức năng
-          </span>
+          <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white mb-1.5">
+            Ngân Hàng Số Hiện Đại
+          </h3>
+          <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            Trải nghiệm VietinBank iPay Mobile cho cá nhân & eFast One cho doanh nghiệp. Hướng dẫn cài đặt, đăng ký FacePay và mở tài khoản số đẹp nhanh chóng.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3.5">
-          {FEATURES_LIST.map((feat) => {
-            const Icon = feat.icon;
-            return (
-              <button
-                key={feat.id}
-                type="button"
-                onClick={() => setActiveFeature(feat.id)}
-                className="group relative bg-white dark:bg-slate-900 hover:bg-sky-50/40 dark:hover:bg-slate-800/60 rounded-2xl p-4 border border-slate-200/80 dark:border-slate-800 hover:border-sky-300 dark:hover:border-sky-600 transition-all duration-200 text-left flex flex-col justify-between shadow-2xs hover:shadow-md hover:-translate-y-0.5"
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-2.5">
-                    <div className="w-8 h-8 rounded-xl bg-sky-50 dark:bg-slate-800 text-[#004b87] dark:text-sky-400 font-bold font-mono text-xs flex items-center justify-center group-hover:bg-[#004b87] group-hover:text-white transition-colors">
-                      {feat.index}
-                    </div>
-                    {feat.badge && (
-                      <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-300 border border-rose-100 dark:border-rose-900">
-                        {feat.badge}
-                      </span>
-                    )}
-                  </div>
-
-                  <div className="flex items-center gap-2 mb-1.5">
-                    <Icon className="w-4 h-4 text-[#004b87] dark:text-sky-400 shrink-0" />
-                    <h3 className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-[#004b87] dark:group-hover:text-sky-400 transition-colors line-clamp-1">
-                      {feat.shortLabel}
-                    </h3>
-                  </div>
-
-                  <p className="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
-                    {feat.label}
-                  </p>
-                </div>
-
-                <div className="mt-4 pt-2.5 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-medium text-sky-700 dark:text-sky-400 group-hover:text-[#004b87] dark:group-hover:text-sky-300">
-                  <span>Vào chức năng</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </button>
-            );
-          })}
+        <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-2xs">
+          <div className="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3">
+            <TrendingUp className="w-5 h-5" />
+          </div>
+          <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white mb-1.5">
+            Công Cụ Tài Chính Thông Minh
+          </h3>
+          <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            Tra cứu lãi suất tiết kiệm, lập kế hoạch trả nợ vay theo kỳ hạn, xem danh mục hồ sơ vay vốn sản xuất kinh doanh và các sản phẩm nổi bật.
+          </p>
         </div>
+
+        <div className="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-2xs">
+          <div className="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center mb-3">
+            <Map className="w-5 h-5" />
+          </div>
+          <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white mb-1.5">
+            Mạng Lưới & Kết Nối Địa Phương
+          </h3>
+          <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            Tra cứu địa điểm ATM / RATM, phòng giao dịch chi nhánh Bạc Liêu, bản đồ giao thương doanh nghiệp và cẩm nang du lịch ẩm thực địa phương.
+          </p>
+        </div>
+      </div>
+
+      {/* Slogan Banner */}
+      <div className="bg-gradient-to-r from-sky-50 via-white to-sky-50 dark:from-slate-900 dark:via-slate-850 dark:to-slate-900 rounded-2xl p-4 sm:p-5 border border-sky-100/80 dark:border-slate-800 text-center">
+        <p className="text-xs sm:text-sm font-medium text-[#004b87] dark:text-sky-300">
+          VietinBank Bạc Liêu — Nâng giá trị cuộc sống, đồng hành cùng sự thịnh vượng của Quý khách
+        </p>
+        <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">
+          Vui lòng bấm vào biểu tượng menu <Menu className="inline w-3 h-3 text-[#004b87] dark:text-sky-400 -mt-0.5" /> ở góc trên bên trái để lựa chọn tính năng phục vụ
+        </p>
       </div>
     </div>
   );
