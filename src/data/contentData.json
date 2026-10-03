@@ -1756,5 +1756,25 @@
       "rate": 5,
       "months": 36
     }
+  ],
+  "games": [
+    {
+      "id": "nhct-bac-lieu-flappy",
+      "title": "NHCT Bạc Liêu Flappy",
+      "description": "Trò chơi bay lượn vượt chướng ngại vật Flappy vui nhộn mang dấu ấn VietinBank Bạc Liêu (Ngân hàng Công thương Bạc Liêu). Thử tài khéo léo và phản xạ!",
+      "url": "https://nhct-bac-lieu-flappy.vercel.app/",
+      "tag": "VietinBank Bạc Liêu",
+      "category": "Arcade / Flappy",
+      "color": "from-sky-600 via-blue-600 to-[#004b87]"
+    },
+    {
+      "id": "pixel-past",
+      "title": "Pixel Past",
+      "description": "Trò chơi phiêu lưu đồ họa pixel cổ điển (Retro Pixel Art) đầy hấp dẫn, giải trí thư giãn nhẹ nhàng tại quầy giao dịch.",
+      "url": "https://pixel-past.vercel.app/",
+      "tag": "Retro Pixel",
+      "category": "Adventure / Retro",
+      "color": "from-purple-600 via-indigo-600 to-slate-900"
+    }
   ]
 }

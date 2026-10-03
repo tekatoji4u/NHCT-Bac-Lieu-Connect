@@ -36,6 +36,15 @@ export interface AppContentData {
   localTourism: typeof defaultContentData.localTourism;
   faqs: typeof defaultContentData.faqs;
   depositRates: typeof defaultContentData.depositRates;
+  games?: Array<{
+    id: string;
+    title: string;
+    description: string;
+    url: string;
+    tag: string;
+    category?: string;
+    color?: string;
+  }>;
 }
 
 interface AppContextType {

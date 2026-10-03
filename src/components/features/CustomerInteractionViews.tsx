@@ -1,20 +1,13 @@
 import React, { useState } from 'react';
 import { useApp } from '../../context/AppContext';
-import confetti from 'canvas-confetti';
 import {
   HelpCircle,
   Smartphone,
-  Gamepad2,
   Search,
   ChevronDown,
   Phone,
   QrCode,
-  Gift,
-  Trophy,
-  Sparkles,
-  CheckCircle2,
-  ExternalLink,
-  RotateCw
+  ExternalLink
 } from 'lucide-react';
 
 /* FEATURE 1: Giải đáp thắc mắc khách hàng */
@@ -245,119 +238,5 @@ export const DownloadIpayView: React.FC = () => {
 };
 
 /* FEATURE 3: Thử thách Game quầy */
-export const GameChallengeView: React.FC = () => {
-  const [spinning, setSpinning] = useState(false);
-  const [reward, setReward] = useState<string | null>(null);
-  const [rotation, setRotation] = useState(0);
+export { GameChallengeView } from './GameChallengeView';
 
-  const prizes = [
-    'Tặng Áo mưa VietinBank cao cấp',
-    'Cộng +0.2% Lãi suất tiết kiệm',
-    'Voucher Mua sắm 50.000 VNĐ',
-    'Tặng Tài khoản số đẹp miễn phí',
-    'Tặng Nón bảo hiểm VietinBank',
-    'Miễn phí thẻ ghi nợ phi vật lý'
-  ];
-
-  const handleSpin = () => {
-    if (spinning) return;
-    setSpinning(true);
-    setReward(null);
-
-    const randomRotations = 5 + Math.floor(Math.random() * 5);
-    const prizeIndex = Math.floor(Math.random() * prizes.length);
-    const degreePerPrize = 360 / prizes.length;
-    const finalDegree = rotation + randomRotations * 360 + prizeIndex * degreePerPrize;
-
-    setRotation(finalDegree);
-
-    setTimeout(() => {
-      setSpinning(false);
-      setReward(prizes[prizeIndex]);
-      try {
-        confetti({
-          particleCount: 80,
-          spread: 70,
-          origin: { y: 0.6 }
-        });
-      } catch {}
-    }, 3500);
-  };
-
-  return (
-    <div className="space-y-6">
-      {/* Title */}
-      <div className="border-b border-slate-200/80 pb-4">
-        <div className="flex items-center gap-2 text-xs font-semibold text-sky-700 uppercase tracking-wider mb-1">
-          <Gamepad2 className="w-4 h-4" />
-          <span>Tính năng 03</span>
-        </div>
-        <h1 className="text-xl sm:text-2xl font-bold text-slate-900">
-          Thử Thách Game Tài Chính May Mắn Tại Quầy
-        </h1>
-        <p className="text-xs sm:text-sm text-slate-600 mt-1">
-          Tham gia vòng quay may mắn trong lúc chờ đợi tại quầy giao dịch VietinBank Bạc Liêu để nhận ngay quà tặng hoặc ưu đãi lãi suất!
-        </p>
-      </div>
-
-      {/* Wheel Showcase */}
-      <div className="max-w-md mx-auto bg-white rounded-3xl border border-slate-200/90 shadow-sm p-6 text-center space-y-5">
-        <div className="relative w-64 h-64 mx-auto flex items-center justify-center">
-          {/* Pointer */}
-          <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-20 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-t-[18px] border-t-rose-600 drop-shadow-sm" />
-
-          {/* Rotating Wheel */}
-          <div
-            className="w-full h-full rounded-full border-4 border-[#004b87] shadow-xl overflow-hidden relative transition-all duration-[3500ms] ease-out flex items-center justify-center bg-linear-to-tr from-sky-100 via-white to-sky-50"
-            style={{ transform: `rotate(${rotation}deg)` }}
-          >
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-12 h-12 rounded-full bg-[#004b87] text-white flex items-center justify-center font-bold text-xs shadow-md z-10">
-                VIETIN
-              </div>
-            </div>
-
-            {/* Slices representation */}
-            <div className="absolute inset-0 grid grid-cols-2 grid-rows-3 opacity-90 text-[10px] font-bold text-slate-700 select-none">
-              {prizes.map((p, i) => (
-                <div
-                  key={i}
-                  className={`p-2 flex items-center justify-center text-center ${
-                    i % 2 === 0 ? 'bg-sky-100/50' : 'bg-amber-100/40'
-                  }`}
-                >
-                  <span className="line-clamp-2">{p}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <button
-          type="button"
-          onClick={handleSpin}
-          disabled={spinning}
-          className="min-h-[48px] px-8 py-3 rounded-2xl bg-[#004b87] hover:bg-[#003662] disabled:opacity-60 text-white font-bold text-sm shadow-md transition-all active:scale-95 inline-flex items-center gap-2"
-        >
-          <RotateCw className={`w-4 h-4 ${spinning ? 'animate-spin' : ''}`} />
-          <span>{spinning ? 'Đang quay...' : 'Quay Vòng May Mắn Ngay'}</span>
-        </button>
-
-        {reward && (
-          <div className="bg-emerald-50 border border-emerald-300 rounded-2xl p-4 text-emerald-900 animate-in zoom-in-95 space-y-1">
-            <div className="flex items-center justify-center gap-1.5 font-bold text-sm text-emerald-800">
-              <Gift className="w-4 h-4 text-emerald-600" />
-              <span>Chúc mừng Quý khách đã trúng:</span>
-            </div>
-            <p className="text-base font-extrabold text-emerald-950 font-mono">
-              {reward}
-            </p>
-            <p className="text-[11px] text-emerald-700 pt-1">
-              Vui lòng đưa màn hình cho giao dịch viên quầy VietinBank Bạc Liêu để nhận quà/kích hoạt ưu đãi!
-            </p>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-};
